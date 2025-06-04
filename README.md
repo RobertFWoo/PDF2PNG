@@ -1,6 +1,6 @@
-This program will read a PDF file in the current folder.
+This program will read the PDF files in the current folder, giving each its own subfolder.
 The program will then generate png images from the pdf file.
-These images will be resized to 1920x1080 pixels in size, regardless of original aspect ratio.
+These images will be resized to 1920x1080 pixels in size at 300 dpi, regardless of original aspect ratio.
 The default folder name should be PDF2PNG, and the images will be saved in a subfolder named after the pdf file.
 If the folder and subfolder do not exist, they will be created.
 If the folders already exists, the contents of the sub folder will be deleted and the images generated into it.
